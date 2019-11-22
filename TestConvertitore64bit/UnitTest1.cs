@@ -1,6 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ClassBase64;
-    
+
+
 namespace TestConvertitore64bit
 {
     [TestClass]
@@ -9,7 +10,7 @@ namespace TestConvertitore64bit
         [TestMethod]
         public static void Testbase64()
         {
-            string r = Base64.Base64();
+            string r = Base64Class.Base64();
             Assert.AreEqual("UmljY2FyZG8=", r);
         }
     }

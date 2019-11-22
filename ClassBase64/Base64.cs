@@ -3,7 +3,7 @@ using System.Text;
 
 namespace ClassBase64
 {
-    public class Base64
+    public class Base64Class
     {
 
         public static string Base64()
